@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan Diri</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 600px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>itsaboutham</h1>
+    </header>
+
+    <section>
+        <h2>Selamat datang di halaman saya!</h2>
+        <p>
+            Halo, nama saya [ilham]. Saya [pelajar]. Saya sangat tertarik dalam [hal yang menarik].
+        </p>
+
+        <p>
+            Di sini, Anda dapat mengetahui lebih banyak tentang saya dan apa yang saya lakukan. Jangan ragu untuk menghubungi saya jika Anda memiliki pertanyaan atau ingin berhubungan.
+        </p>
+    </section>
+ <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      margin: 0;
+    }
+
+    #container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 5px;
+    }
+
+    .whatsapp {
+      background-color: #25d366;
+    }
+
+    .facebook {
+      background-color: #1877f2;
+    }
+
+    .instagram {
+      background-color: #c32aa3;
+    }
+  </style>
+</head>
+  <div id="container">
+    <h2>Connect with Me</h2>
+    <a class="whatsapp" href="https://www.instagram.com/" target="_blank">WhatsApp</a>
+    <a class="facebook" href="https://www.instagram.com/" target="_blank">Facebook</a>
+    <a class="instagram" href="https://www.instagram.com/itsaboutham" target="_blank">Instagram</a>
+    </div>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 16px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal img {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 16px rgba(255, 255, 255, 0.8);
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+    <div class="gallery">
+        <!-- Ganti sumber gambar dengan URL foto Anda -->
+        <p><b>Me</b><p/>
+        <img src="me.jpg" alt="foto 1" onclick="openModal('me2.jpg')">
+        <p><b>Epep</b></p>
+        <img src="img1.png" alt="foto 2" onclick="openModal('img2.png')">
+        <!-- Tambahkan lebih banyak gambar sesuai kebutuhan -->
+    </div>
+
+    <div class="modal" id="myModal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img src="" alt="Foto Modal" id="modalImg">
+    </div>
+
+    <script>
+        function openModal(imageSrc) {
+            document.getElementById('modalImg').src = imageSrc;
+            document.getElementById('myModal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('myModal').style.display = 'none';
+        }
+    </script>
+
+<body>
+    <a href="index.html" onclick="openFile()">Buka File HTML</a>
+
+    <script>
+        function openFile() {
+            // Logika atau aksi yang ingin Anda lakukan saat tautan diklik
+            alert("File HTML dibuka!");
+            // Anda dapat menambahkan logika lain sesuai kebutuhan
+        }
+    </script>
+</body>
+</html>
+</body>
+</html>
